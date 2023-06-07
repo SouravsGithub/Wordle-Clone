@@ -148,6 +148,9 @@ function checkGuess() {
     if (guessesRemaining === 0) {
       alert("You have run out of guesses! Game over!");
       alert(`The correct word was: ${rightGuessString}`);
+      setTimeout(() => {
+        location.reload();
+      }, 1000);
     }
   }
 }
