@@ -1,0 +1,54 @@
+h1 {
+text-align: center;
+}
+
+#game-board {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.letter-box {
+    border: 2px solid grey;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 5px;
+    font-size: 2.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.letter-row {
+    display: flex;
+}
+
+.filled-box {
+    border: 2px solid black;
+}
+
+.keyboard-container {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.keyboard-container section {
+    display: flex;
+}
+
+.second-row {
+    margin: 0.5rem 0;
+}
+
+.keyboard-button {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.5rem;
+    cursor: pointer;;
+    margin: 0 3px;
+}
